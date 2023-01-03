@@ -1,13 +1,13 @@
 /* General */
 * {
     margin: 0;
-  }
+}
 body {
     padding: 0 50px;
 }
 a {
     text-decoration: none;
-  }
+}
 a:visited {
     color: black;
 }
