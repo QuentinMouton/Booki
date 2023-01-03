@@ -1,0 +1,35 @@
+/* General */
+* {
+    margin: 0;
+  }
+body {
+    padding: 0 50px;
+}
+a {
+    text-decoration: none;
+  }
+a:visited {
+    color: black;
+}
+
+/* En-tete */
+header {
+    padding: 20px 0;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img {
+    width: 61.09px;
+    height: 19px;
+}
+nav a {
+    margin-left: 67px;
+}
+nav a:hover {
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+}
