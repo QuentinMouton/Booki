@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     max-width: 1400px;
-    background: #FFFFFF;
     font-family: 'Raleway', sans-serif;
 }
 body{
@@ -25,7 +24,7 @@ nav {
     justify-content: space-between;
     height: 70px;
 }
-nav img {
+nav img{
     width: 61.09px;
     height: 19px;
 }
@@ -36,7 +35,7 @@ nav img {
 nav a {
     margin-left: 67px;
 }
-nav a:hover {
+nav a:hover{
     padding-top: 24px;
     font-weight: 500;
     color: #0065FC;
@@ -135,3 +134,48 @@ form{
     font-size: 16px;
 }
 /* Section */
+section{
+    width: 880px;
+    height: 626px;
+    margin-top: 40px;
+    padding: 42px 40px 46px 40px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+section h1{
+    margin-bottom: 20px;
+}
+.hotel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 31px;
+    margin-bottom: 40px;
+}
+.carte{
+    width: 246px;
+    height: 199px;
+    border: 5px white solid;
+    border-radius: 20px;
+    background-color: white;
+}
+.carte img{
+    min-width: 246px;
+    height: 124px;   
+    border-radius: 20px 20px 0 0; 
+}
+.carte h3{
+    font-weight: 700;
+    font-size: 16px;
+}
+.carte p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.carte i{
+    color: #0065FC;
+}
+.affiche_plus{
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px black solid;
+}
