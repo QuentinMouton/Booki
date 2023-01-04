@@ -42,7 +42,7 @@ nav a:hover {
     color: #0065FC;
     border-top: 2px #0065FC solid;
 }
-
+/* Texte */
 header h1{
     margin-top: 20px;
     font-size: 22px;
@@ -55,3 +55,36 @@ header p{
 }
 
 /* Main */
+/* Formulaire de recherche */
+form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 700;
+}
+#ico_recherche{
+    padding: 10px;
+    background-color: #F2F2F2;
+    border: 1px #F2F2F2 solid;
+    border-radius: 15px 0 0 15px;
+}
+#champ_saisie{
+    text-align: center;
+    color: black;
+    padding-left: 10px;
+    border: 1px #F2F2F2 solid;
+    font-size: 18px;
+    font-weight: 700;
+}
+#boutton_recherche{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700; 
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+}
