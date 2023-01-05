@@ -1,4 +1,4 @@
-/* General */
+/* GENERAL */
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ a:visited{
     color: black;
 }
 
-/* Header */
+/* HEADER */
 /* Menu de naviguation */
 nav {
     display: flex;
@@ -53,7 +53,7 @@ header p{
     font-weight: 400;
 }
 
-/* Main */
+/* MAIN */
 /* Formulaire de recherche */
 form{
     padding-top: 20px;
@@ -164,7 +164,8 @@ section h1{
 }
 .carte_heb img{
     min-width: 220px;
-    height: 124px;   
+    height: 124px;
+    object-fit: cover;
     border-radius: 20px 20px 0 0; 
 }
 .carte_heb h3{
@@ -223,6 +224,7 @@ aside i{
 .carte_pop img{
     width: 137px;
     height: 144px;
+    object-fit: cover;
     border-radius: 20px 0 0 20px; 
 }
 .carte_pop div{
@@ -240,3 +242,35 @@ aside i{
 
     color: #0065FC;
 }
+/* Article */
+article{
+    margin-top: 60px;
+}
+article h1{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 22px;
+}
+article div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 33px;
+}
+.activite{
+    border-radius: 20px;
+    height: 445px;
+    box-shadow: 0px 0px 12px #D9D9D9;
+}
+.activite img{
+    width: 302px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.activite h3{
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 0 0 15px;
+}
+
+/* FOOTER */
