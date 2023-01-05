@@ -274,3 +274,26 @@ article div{
 }
 
 /* FOOTER */
+footer{
+    margin-top: 50px;
+    background-color: #F2F2F2;
+}
+.bloc_legende{
+    padding: 30px 0 35px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.legende a:hover {
+    text-decoration: underline;
+}
+.legende h2 {
+    line-height: 2em;
+    font-weight: 700;
+    font-size: 18px;
+}
+.legende p {
+    line-height: 1.5em;
+    font-weight: 400;
+    font-size: 16px;
+}
