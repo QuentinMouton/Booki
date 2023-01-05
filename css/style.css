@@ -14,7 +14,21 @@ a{
 a:visited{
     color: black;
 }
-
+h1, h2, h3{
+    font-weight: 700;
+}
+h1{
+    font-size: 22px;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 16px;
+}
+p{
+   font-weight: 400; 
+}
 /* HEADER */
 /* Menu de naviguation */
 nav {
@@ -43,14 +57,10 @@ nav a:hover{
 }
 /* Texte */
 header h1{
-    margin-top: 20px;
-    font-size: 22px;
-    font-weight: 700;   
+    margin-top: 20px;  
 }
 header p{
     margin-top: 5px;
-    font-size: 16px;
-    font-weight: 400;
 }
 
 /* MAIN */
@@ -60,7 +70,6 @@ form{
     display: flex;
     flex-direction: row;
     font-size: 18px;
-    font-weight: 700;
 }
 #ico_recherche{
     padding: 10px;
@@ -96,10 +105,6 @@ form{
 .filtre a:hover {
     background-color: #DEEBFF;
 }
-.filtre h2{
-    font-weight: 700;
-    font-size: 18px;
-}
 .filtre a{
     font-weight: 700;
     font-size: 17px;
@@ -130,11 +135,9 @@ form{
 }
 .information p{
     margin-left: 11px;
-    font-weight: 400;
-    font-size: 16px;
 }
 /* Section */
-.test{
+.heb_pop{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
@@ -168,14 +171,6 @@ section h1{
     object-fit: cover;
     border-radius: 20px 20px 0 0; 
 }
-.carte_heb h3{
-    font-weight: 700;
-    font-size: 16px;
-}
-.carte_heb p{
-    font-weight: 400;
-    font-size: 14px;
-}
 .carte_heb i{
     color: #0065FC;
 }
@@ -201,12 +196,6 @@ aside{
 .pop i{
     color: #0065FC;
 }
-aside h2{
-    display: block;
-}
-aside i{
-    display: block;
-}
 .hotel_pop{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -230,14 +219,6 @@ aside i{
 .carte_pop div{
     padding-left: 15px;
 }
-.carte_pop h3{
-    font-weight: 700;
-    font-size: 16px;
-}
-.carte_pop p{
-    font-weight: 400;
-    font-size: 14px;
-}
 .carte_pop i{
 
     color: #0065FC;
@@ -248,8 +229,6 @@ article{
 }
 article h1{
     padding-bottom: 20px;
-    font-weight: 700;
-    font-size: 22px;
 }
 article div{
     display: grid;
@@ -268,8 +247,6 @@ article div{
     border-radius: 20px 20px 0 0;
 }
 .activite h3{
-    font-weight: 700;
-    font-size: 16px;
     padding: 10px 0 0 15px;
 }
 
@@ -289,11 +266,7 @@ footer{
 }
 .legende h2 {
     line-height: 2em;
-    font-weight: 700;
-    font-size: 18px;
 }
 .legende p {
     line-height: 1.5em;
-    font-weight: 400;
-    font-size: 16px;
 }
