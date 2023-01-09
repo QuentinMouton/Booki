@@ -28,7 +28,8 @@ h3{
     font-size: 16px;
 }
 p{
-   font-weight: 400; 
+   font-weight: 400;
+   font-size: 14px;
 }
 /* HEADER */
 /* Menu de naviguation */
@@ -142,10 +143,10 @@ form{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 700px;
 }
 section{
     width: 63%;
-    height: 600px;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -153,15 +154,21 @@ section h1{
     margin: 30px 0 20px 25px;
 }
 .hotel_heb{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 3%;
-    width: 94%;
-    margin-left: 3%;
-    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+
+}
+.hotel_heb_part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
 }
 .carte_heb{
-    width: 100%;
+    width: 28%;
     height: 215px;
     background-color: white;
     border-radius: 20px;
@@ -202,16 +209,17 @@ aside{
     color: #0065FC;
 }
 .hotel_pop{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 4%;
-    width: 90%;
-    margin-left: 5%;
-    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80%;
 }
 .carte_pop{
     display: flex;
-    width: 100%;
+    flex-direction: row;
+    width: 90%;
     height: 144px;
     background-color: white;
     border-radius: 20px;
@@ -225,12 +233,15 @@ aside{
     border: 3px white solid;
 }
 .desc_pop{
-    padding: 10px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0 10px 15px;
 }
 .carte_pop i{
     color: #0065FC;
 }
-/* Acrticle */
+/* Article */
 article{
     width: 100%;
     margin-top: 30px;
@@ -279,3 +290,34 @@ footer{
     line-height: 1.5em;
 }
 
+/* Media queries */
+/* Tablette */
+@media screen and (max-width: 992px) {
+    .heb_pop{
+        flex-direction: column;
+        height: 950px;
+    }
+    section{
+        width: 100%;
+        height: 626px;
+    }
+    aside{
+        width: 100%;
+        height: 278px;
+    }
+    .pop{
+        margin-bottom: 0;
+    }
+    .hotel_pop{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .carte_pop{
+        width: 28%;
+    }
+}
+/* Mobile */
+@media screen and (max-width: 768px) {
+    
+}
