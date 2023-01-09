@@ -9,6 +9,7 @@ body{
     margin: 0 50px 0 50px;
 }
 a{
+    color: black;
     text-decoration: none;
 }
 a:visited{
@@ -125,7 +126,7 @@ form{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 35px;
+    margin: 35px 0 35px  0;
 }
 .information i{
     color: #0065FC;
@@ -138,60 +139,64 @@ form{
 }
 /* Section */
 .heb_pop{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 section{
-    width: 820px;
-    margin-top: 40px;
-    padding: 42px 20px 46px 20px;
+    width: 63%;
+    height: 600px;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
 section h1{
-    margin-bottom: 20px;
+    margin: 30px 0 20px 25px;
 }
 .hotel_heb{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 3%;
+    width: 94%;
+    margin-left: 3%;
     margin-bottom: 40px;
 }
 .carte_heb{
-    width: 220px;
-    height: 199px;
-    border: 5px white solid;
-    border-radius: 20px;
+    width: 100%;
+    height: 215px;
     background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px #D9D9D9;
 }
 .carte_heb img{
-    min-width: 220px;
+    width: 97%;
     height: 124px;
+    border-radius: 20px 20px 0 0;
     object-fit: cover;
-    border-radius: 20px 20px 0 0; 
+    border: 3px white solid;
 }
 .carte_heb i{
     color: #0065FC;
 }
+.desc_heb{
+    padding-left: 10px;
+}
 .affiche_plus{
+    padding-left: 25px;
     font-weight: 700;
     font-size: 18px;   
 }
 /* Aside */
 aside{
-    width: 380px;
+    width: 35%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-top: 40px;
-    padding: 42px 20px 46px 20px;
 }
 .pop{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 30px 25px 20px 25px;
 }
 .pop i{
     color: #0065FC;
@@ -199,55 +204,58 @@ aside{
 .hotel_pop{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 4%;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 40px;
 }
 .carte_pop{
-    width: 370px;
-    height: 144px;
     display: flex;
-    flex-direction: row;
-    border: 5px white solid;
-    border-radius: 20px;
+    width: 100%;
+    height: 144px;
     background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px #D9D9D9;
 }
 .carte_pop img{
-    width: 137px;
-    height: 144px;
+    width: 33%;
+    height: 138px;
+    border-radius: 20px 0 0 20px;
     object-fit: cover;
-    border-radius: 20px 0 0 20px; 
+    border: 3px white solid;
 }
-.carte_pop div{
-    padding-left: 15px;
+.desc_pop{
+    padding: 10px 0 0 10px;
 }
 .carte_pop i{
-
     color: #0065FC;
 }
-/* Article */
+/* Acrticle */
 article{
-    margin-top: 60px;
+    width: 100%;
+    margin-top: 30px;
 }
 article h1{
     padding-bottom: 20px;
 }
-article div{
+.activite{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 33px;
+    gap: 3%
 }
-.activite{
-    border-radius: 20px;
-    height: 445px;
+.carte_acti{
+    height: 515px;
     box-shadow: 0px 0px 12px #D9D9D9;
+    border-radius: 20px;
 }
-.activite img{
-    width: 302px;
-    height: 400px;
+.carte_acti img{
+    width: 100%;
+    height: 450px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
-.activite h3{
-    padding: 10px 0 0 15px;
+.carte_acti h3{
+    padding: 10px 0 10px 15px
 }
 
 /* FOOTER */
@@ -270,3 +278,4 @@ footer{
 .legende p {
     line-height: 1.5em;
 }
+
