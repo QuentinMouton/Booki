@@ -6,7 +6,7 @@
     font-family: 'Raleway', sans-serif;
 }
 body{
-    margin: 0 50px 0 50px;
+    margin: 0 5% 0 5%;
 }
 a{
     color: black;
@@ -33,33 +33,39 @@ p{
 }
 /* HEADER */
 /* Menu de naviguation */
-nav {
+header {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
-    height: 70px;
 }
-nav img{
+header img{
     width: 61.09px;
     height: 19px;
 }
 .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 40px;
     font-weight: 400;
     font-size: 16px;
 }
-nav a {
-    margin-left: 67px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 215px;
+    height: 100%;
 }
 nav a:hover{
-    padding-top: 24px;
-    font-weight: 500;
+    padding-top: 19px;
     color: #0065FC;
     border-top: 2px #0065FC solid;
+    font-weight: 500;
 }
 /* Texte */
 header h1{
-    margin-top: 20px;  
+    margin-top: 30px;  
 }
 header p{
     margin-top: 5px;
@@ -87,40 +93,60 @@ form{
     font-size: 18px;
     font-weight: 700;
 }
-#boutton_recherche{
+.boutton{
     padding-left: 10px;
-    padding-right: 10px;
-    border: none;
-    color: white;
-    font-size: 18px;
-    font-weight: 700; 
+    padding-right: 14px;
     background-color: #0065FC;
     border-radius: 0 15px 15px 0;
 }
+#boutton_recherche{
+    border: none;
+    color: white;
+    padding-top: 10px;
+    background-color: #0065FC;
+    font-size: 18px;
+    font-weight: 700; 
+}
+#loupe{
+    display: none;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    background-color: #0065FC;
+    font-size: 18px;
+    font-weight: 700; 
+}
+
 /* Filtres */
 .filtre {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 30px;
+}
+.filtre h2{
+    margin-right: 25px;
+}
+.boutton_filtre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75%;
+}
+.filtre a{
+    padding: 5px 10px 5px 10px;
+    border: 2px #F2F2F2 solid;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 17px;
 }
 .filtre a:hover {
     background-color: #DEEBFF;
 }
-.filtre a{
-    font-weight: 700;
-    font-size: 17px;
-}
 .filtre i {
     color: #0065FC;
     padding: 0 8px 0 7px;
-}
-.filtre_bouton{
-    font-size: 17px;
-    padding: 5px 10px 5px 10px;
-    margin-left: 45px;
-    border: 2px #F2F2F2 solid;
-    border-radius: 25px;
 }
 /* Information */
 .information{
@@ -181,11 +207,22 @@ section h1{
     object-fit: cover;
     border: 3px white solid;
 }
-.carte_heb i{
+.desc_heb{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 0 0 10px;
+}
+.etoiles{
+    display: flex;
+    justify-content: flex-start;
+}
+.etoile_bleu{
     color: #0065FC;
 }
-.desc_heb{
-    padding-left: 10px;
+.etoile_grise{
+    color: #F2F2F2;
 }
 .affiche_plus{
     padding-left: 25px;
@@ -238,9 +275,6 @@ aside{
     justify-content: space-between;
     padding: 10px 0 10px 15px;
 }
-.carte_pop i{
-    color: #0065FC;
-}
 /* Article */
 article{
     width: 100%;
@@ -255,7 +289,7 @@ article h1{
     gap: 3%
 }
 .carte_acti{
-    height: 515px;
+    height: 520px;
     box-shadow: 0px 0px 12px #D9D9D9;
     border-radius: 20px;
 }
@@ -266,7 +300,7 @@ article h1{
     border-radius: 20px 20px 0 0;
 }
 .carte_acti h3{
-    padding: 10px 0 10px 15px
+    padding: 15px 0 18px 15px;
 }
 
 /* FOOTER */
@@ -288,36 +322,4 @@ footer{
 }
 .legende p {
     line-height: 1.5em;
-}
-
-/* Media queries */
-/* Tablette */
-@media screen and (max-width: 992px) {
-    .heb_pop{
-        flex-direction: column;
-        height: 950px;
-    }
-    section{
-        width: 100%;
-        height: 626px;
-    }
-    aside{
-        width: 100%;
-        height: 278px;
-    }
-    .pop{
-        margin-bottom: 0;
-    }
-    .hotel_pop{
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-    }
-    .carte_pop{
-        width: 28%;
-    }
-}
-/* Mobile */
-@media screen and (max-width: 768px) {
-    
 }
