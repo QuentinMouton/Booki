@@ -29,7 +29,7 @@ h3{
 }
 p{
    font-weight: 400;
-   font-size: 14px;
+   font-size: 16px;
 }
 /* HEADER */
 /* Menu de naviguation */
@@ -289,7 +289,7 @@ article h1{
     gap: 3%
 }
 .carte_acti{
-    height: 520px;
+    height: 500px;
     box-shadow: 0px 0px 12px #D9D9D9;
     border-radius: 20px;
 }
@@ -300,7 +300,11 @@ article h1{
     border-radius: 20px 20px 0 0;
 }
 .carte_acti h3{
-    padding: 15px 0 18px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 8%;
+    padding-left: 7%;
 }
 
 /* FOOTER */

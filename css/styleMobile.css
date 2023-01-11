@@ -37,11 +37,12 @@
         margin: 3% 5% 0 5%;
     }
     main{
-        margin: 0 5% 0 5%;
+
     }
     form{
         display: flex;
         justify-content: center;
+        margin: 0 5% 0 5%;
     }
     #boutton_recherche{
         display: none;
@@ -52,6 +53,7 @@
     .filtre{
         flex-direction: column;
         align-items: flex-start;
+        margin: 5% 5% 0 5%;
     }
     .filtre h2{
         margin-bottom: 10px;
@@ -59,13 +61,87 @@
     .boutton_filtre{
         flex-wrap: wrap;
         justify-content: space-between;
-        height: 120px;
+        height: 140px;
     }
     .filtre a{
         display: flex;
         align-items: center;
         width: 40%;
-        height: 30%;
+        height: 25%;
         font-size: 11px;
+    }
+    .information{
+        margin: 0 5% 4% 5%;
+    }
+    .heb_pop{
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    aside, section{
+        height: 100%;
+        border-radius: 0;
+    }
+    .pop{
+        margin-bottom: 20px;
+    }
+    .hotel_pop{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 480px;
+        padding-bottom: 30px
+    }
+    .carte_pop{
+        width: 90%;
+    }
+    section{
+        background-color: white;
+    }
+    .hotel_heb_part{
+        flex-direction: column;
+        align-items: center;
+        height: 700px;
+    }
+    .carte_heb{
+        width: 90%;
+    }
+    .affiche_plus{
+        display: none;
+    }
+    article{
+        margin: 10% 0 10% 5%;
+        width: 90%;
+    }
+    .activite{
+        grid-template: none;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 2%;
+    }
+    .carte_acti{
+        height: 190px;
+    }
+    .carte_acti img{
+        height: 134px;
+    }
+    .carte_acti h3{
+        height: 50px;
+    }
+    footer{
+        margin-top: 100px;
+        background-color: #F2F2F2;
+        height: 400px;
+    }
+    .bloc_legende{
+        padding: 0 0 0 9%;
+        flex-direction: column;
+        height: 100%;
+    }
+    .legende a:hover {
+        text-decoration: underline;
+    }
+    .legende h2 {
+        line-height: 2em;
+    }
+    .legende p {
+        line-height: 1.5em;
     }
 }

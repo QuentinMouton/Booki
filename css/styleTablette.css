@@ -35,12 +35,15 @@
         width: 100%;
     }
     .carte_pop{
-        width: 28%;
+        width: 30%;
     }
     .carte_acti{
-        height: 275px;
+        height: 267px;
     }
     .carte_acti img{
         height: 211px;
+    }
+    .carte_acti h3{
+        height: 54px;
     }
 }
