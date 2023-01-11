@@ -1,4 +1,3 @@
-/* Media queries */
 @media screen and (max-width: 992px) {
     .filtre{
         justify-content: flex-start;
