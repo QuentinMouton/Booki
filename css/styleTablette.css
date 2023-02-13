@@ -15,26 +15,38 @@
     }
     .heb_pop{
         flex-direction: column;
+        /* padding: 0; */
         height: 950px;
     }
     section{
         width: 100%;
         height: 626px;
     }
+    section h1{
+        margin-left: 35px;
+    }
     aside{
         width: 100%;
         height: 278px;
     }
     .pop{
-        margin-bottom: 0;
+        margin: 30px 27px 0 27px;
     }
     .hotel_pop{
         flex-direction: row;
         justify-content: space-around;
-        width: 100%;
+        padding: 0;
+        margin: 0 11px 0 11px;
+        width: 98%;
     }
     .carte_pop{
         width: 30%;
+    }
+    .carte_pop img{
+        width: 36%;
+    }
+    .carte_pop p{
+        font-size: 14px;
     }
     .carte_acti{
         height: 267px;
@@ -44,5 +56,13 @@
     }
     .carte_acti h3{
         height: 54px;
+    }
+    .desc_pop{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #activite h1{
+        margin: 55px 0 35px 0;
+        padding: 0 0 0 6px;
     }
 }

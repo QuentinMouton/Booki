@@ -88,8 +88,6 @@ form{
     border-radius: 15px 0 0 15px;
 }
 #champ_saisie{
-    text-align: center;
-    color: black;
     padding-left: 10px;
     border: 1px #F2F2F2 solid;
     font-size: 18px;
@@ -171,7 +169,7 @@ form{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 700px;
+    height: 625px;
 }
 section{
     width: 63%;
@@ -179,14 +177,16 @@ section{
     border-radius: 20px;
 }
 section h1{
-    margin: 30px 0 20px 25px;
+    margin: 30px 0 0 25px;
 }
 .hotel_heb{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 100%;
+    margin: 0 8px 0 8px;
+    width: 98%;
     height: 80%;
+    margin-bottom: 12px;
 }
 .hotel_heb_part{
     display: flex;
@@ -241,7 +241,7 @@ aside{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 25px 20px 25px;
+    margin: 30px 50px 0 50px;
 }
 .pop i{
     color: #0065FC;
@@ -249,9 +249,11 @@ aside{
 .hotel_pop{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    padding-top: 18px;
+    /* margin-left: 7%; */
+    width: 98%;
     height: 80%;
 }
 .carte_pop{
@@ -274,7 +276,8 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px 10px 10px 15px;
+    width: 67%;
+    padding: 15px 10px 10px 15px;
 }
 /* Article */
 article{
@@ -287,7 +290,7 @@ article h1{
 .activ{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 3%
+    gap: 2%
 }
 .carte_acti{
     height: 500px;

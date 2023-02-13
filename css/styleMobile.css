@@ -78,19 +78,28 @@
         border-radius: 0;
     }
     .pop{
-        margin-bottom: 20px;
+        margin: 30px 26px 20px 26px;
     }
     .hotel_pop{
         flex-direction: column;
         justify-content: space-around;
         height: 480px;
+        margin: 0 0 0 4px;
         padding-bottom: 30px
     }
     .carte_pop{
-        width: 90%;
+        width: 88%;
     }
     section{
         background-color: white;
+    }
+    section h1{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .hotel_heb{
+        margin: 0;
+        width: 100%;
     }
     .hotel_heb_part{
         flex-direction: column;
@@ -100,12 +109,19 @@
     .carte_heb{
         width: 90%;
     }
+    .carte_heb img{
+        width: 98%;
+    }
     .affiche_plus{
         display: none;
     }
     article{
         margin: 10% 0 10% 5%;
         width: 90%;
+    }
+    #activite h1{
+        margin-bottom: 2px;
+        width: 35%;
     }
     .activ{
         grid-template: none;
@@ -127,7 +143,7 @@
         height: 400px;
     }
     .bloc_legende{
-        padding: 0 0 0 9%;
+        padding: 0 0 0 30px;
         flex-direction: column;
         height: 100%;
     }
