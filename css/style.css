@@ -17,16 +17,19 @@ a{
 a, a:visited{
     color: black;
 }
-h1, h2, h3{
+h1, h2, h3, h4{
     font-weight: 700;
 }
 h1{
     font-size: 22px;
 }
 h2{
-    font-size: 18px;
+    font-size: 22px;
 }
 h3{
+    font-size: 18px;
+}
+h4{
     font-size: 16px;
 }
 p{
@@ -93,13 +96,12 @@ form{
     font-size: 18px;
     font-weight: 700;
 }
-.boutton{
-    padding-left: 10px;
-    padding-right: 14px;
+.bouton{
+    padding: 0 14px 0 10px;
     background-color: #0065FC;
     border-radius: 0 15px 15px 0;
 }
-#boutton_recherche{
+#bouton_recherche{
     border: none;
     color: white;
     padding-top: 10px;
@@ -128,7 +130,7 @@ form{
 .filtre h2{
     margin-right: 25px;
 }
-.boutton_filtre{
+.bouton_filtre{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -176,8 +178,8 @@ section{
     background-color: #F2F2F2;
     border-radius: 20px;
 }
-section h1{
-    margin: 30px 0 0 25px;
+section h2{
+    margin: 30px 0 0 30px;
 }
 .hotel_heb{
     display: flex;
@@ -241,7 +243,7 @@ aside{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 50px 0 50px;
+    margin: 30px 35px 0 25px;
 }
 .pop i{
     color: #0065FC;
@@ -282,9 +284,9 @@ aside{
 /* Article */
 article{
     width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
 }
-article h1{
+article h2{
     padding-bottom: 20px;
 }
 .activ{
@@ -303,7 +305,7 @@ article h1{
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
-.carte_acti h3{
+.carte_acti h4{
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -325,7 +327,7 @@ footer{
 .legende a:hover {
     text-decoration: underline;
 }
-.legende h2 {
+.legende h3 {
     line-height: 2em;
 }
 .legende p {
