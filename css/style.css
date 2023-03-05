@@ -4,9 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+html{
     margin: 0 5% 0 5%;
-    max-width: 1400px;
+}
+body{
+    margin: auto;
+    max-width: 1440px;
     font-family: 'Raleway', sans-serif;
 }
 a{
@@ -406,7 +409,7 @@ footer{
 
 /* Mobile */
 @media screen and (max-width: 768px) {
-    body{
+    html{
         margin: 0;
     }
     header{
@@ -417,11 +420,13 @@ footer{
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        height: 85px;
+        height: 130px;
         padding-top: 25px;
     }
     .menu img{
         padding-bottom: 30px;
+        width: 100px;
+        height: 90px;
     }
     nav{
         align-items: flex-start;
@@ -469,8 +474,8 @@ footer{
     .filtre a{
         display: flex;
         align-items: center;
-        width: 40%;
-        height: 25%;
+        width: 45%;
+        height: 35%;
         font-size: 11px;
     }
     .information{
@@ -481,11 +486,15 @@ footer{
         height: 100%;
     }
     aside, section{
+        margin: 0;
         height: 100%;
         border-radius: 0;
     }
-    .pop, section h2{
+    .pop{
         margin: 5% 7% 4% 7%;
+    }
+    section h2{
+        margin: 5% 7% 4% 5%;
     }
     .hotel_pop{
         flex-direction: column;
@@ -496,6 +505,9 @@ footer{
     }
     .carte_pop{
         width: 88%;
+    }
+    .carte_pop img{
+        width: 33%;
     }
     section{
         background-color: white;
