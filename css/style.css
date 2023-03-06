@@ -52,7 +52,7 @@ header img{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    height: 40px;
+    height: 67px;
     font-weight: 400;
     font-size: 16px;
 }
@@ -64,14 +64,14 @@ nav {
     height: 100%;
 }
 nav a:hover{
-    padding-top: 19px;
+    padding-top: 46px;
     color: #0065FC;
     border-top: 2px #0065FC solid;
     font-weight: 500;
 }
 /* Texte */
 header h1{
-    margin-top: 30px;  
+    margin-top: 55px;  
 }
 header p{
     margin-top: 5px;
@@ -86,7 +86,7 @@ form{
     font-size: 18px;
 }
 #ico_recherche{
-    padding: 10px;
+    padding: 15px;
     background-color: #F2F2F2;
     border: 1px #F2F2F2 solid;
     border-radius: 15px 0 0 15px;
@@ -94,6 +94,7 @@ form{
 #champ_saisie{
     padding-left: 10px;
     border: 1px #F2F2F2 solid;
+    width: 220px;
     font-size: 18px;
     font-weight: 700;
 }
@@ -105,7 +106,7 @@ form{
 #bouton_recherche{
     border: none;
     color: white;
-    padding-top: 10px;
+    padding-top: 15px;
     background-color: #0065FC;
     font-size: 18px;
     font-weight: 700; 
@@ -129,16 +130,18 @@ form{
     margin-top: 30px;
 }
 .filtre h2{
-    margin-right: 25px;
+    margin-right: 30px;
 }
 .bouton_filtre{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 75%;
+    justify-content: start;
+    /* width: 70%; */
 }
 .filtre a{
-    padding: 5px 10px 5px 10px;
+    /* height: 45px; */
+    padding: 13px 13px 13px 13px;
+    margin-right: 35px;
     border: 2px #F2F2F2 solid;
     border-radius: 25px;
     font-weight: 700;
@@ -337,18 +340,17 @@ footer{
 /* Media query */
 /* Tablette */
 @media screen and (max-width: 992px) {
-    .filtre{
-        justify-content: flex-start;
-    }
+
     .filtre h2{
-        margin-right: 20px;
+        margin-right: 16px;
     }
     .bouton_filtre{
-        justify-content: space-between;
         width: 100%;
     }
-    .bouton_filtre div{
-        width: auto;
+    .bouton_filtre a{
+        margin-right: 3.5%;
+        padding: 12px 13px 12px 7px;
+        font-size: 85%;
     }
     .heb_pop{
         flex-direction: column;
@@ -420,28 +422,28 @@ footer{
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        height: 130px;
+        height: 150px;
         padding-top: 25px;
     }
     .menu img{
-        padding-bottom: 30px;
-        width: 100px;
-        height: 90px;
+        width: 80px;
+        height: 25px;
     }
     nav{
         align-items: flex-start;
         width: 100%;
+        height: 33%;
     }
     nav a{
         width: 50%;
         text-align: center;
-        padding-bottom: 11px;
+        padding-bottom: 19px;
         border-bottom: 3px #F2F2F2 solid;
     }
     nav a:hover{
         border-top: 0;
         padding-top: 0;
-        padding-bottom: 11px;
+        padding-bottom: 19px;
         border-bottom: 3px #0065FC solid;
     }
     header h1, header p{
@@ -452,6 +454,12 @@ footer{
         justify-content: center;
         margin: 0 5% 0 5%;
     }
+    .bouton {
+        padding: 7px 18px 0 14px ;
+    }
+    #ico_recherche{
+        padding: 15px 17px 15px 17px;
+    }
     #bouton_recherche{
         display: none;
     }
@@ -461,10 +469,11 @@ footer{
     .filtre{
         flex-direction: column;
         align-items: flex-start;
-        margin: 5% 5% 0 5%;
+        margin: 11% 5% 0 5%;
     }
     .filtre h2{
         margin-bottom: 10px;
+        padding-bottom: 10px;
     }
     .bouton_filtre{
         flex-wrap: wrap;
@@ -476,7 +485,7 @@ footer{
         align-items: center;
         width: 45%;
         height: 35%;
-        font-size: 11px;
+        font-size: 70%;
     }
     .information{
         margin: 3% 5% 10% 5%;
